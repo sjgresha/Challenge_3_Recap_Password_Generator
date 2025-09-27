@@ -18,7 +18,7 @@ function writePassword() {
   passwordText.value = password;
 
   function generatePassword() {
-    passwordLength = prompt("How will you password be?");
+    passwordLength = prompt("How long will you password be?");
     //Checking if password length is captured
     console.log(passwordLength);
     if (passwordLength === null) {
